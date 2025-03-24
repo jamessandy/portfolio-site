@@ -1148,6 +1148,66 @@ section {
   }
 }
 
+.portfolio .portfolio-wrap {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio .portfolio-wrap img {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio .portfolio-wrap:hover img {
+  transform: scale(1.1);
+}
+
+.portfolio .portfolio-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+  visibility: visible;
+}
+
+.portfolio .portfolio-info h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.portfolio .portfolio-info p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.portfolio .portfolio-links {
+  margin-top: 10px;
+}
+
+.portfolio .portfolio-links a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+.portfolio .portfolio-links a:hover {
+  color: #ffb03b;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
