@@ -1267,3 +1267,14 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+.certification-item {
+  text-align: center;
+  padding: 20px;
+}
+
+.certification-logo {
+  width: 80px; /* Adjust size as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
